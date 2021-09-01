@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/lalbi/Desktop/TabLayout/app/src/main/res/layout/activity_main.xml" value="0.2125" />
+        <entry key="..\:/Users/lalbi/Desktop/TabLayout/app/src/main/res/layout/forrec.xml" value="0.2125" />
+        <entry key="..\:/Users/lalbi/Desktop/TabLayout/app/src/main/res/layout/fragment_chapter.xml" value="0.1984375" />
+        <entry key="..\:/Users/lalbi/Desktop/TabLayout/app/src/main/res/layout/recycler_view_card.xml" value="0.2125" />
+        <entry key="..\:/Users/lalbi/Desktop/TabLayout/app/src/main/res/layout/reycler_view_item.xml" value="0.2125" />
         <entry key="..\:/Users/lalbi/Desktop/TabLayout/app/src/main/res/layout/viewpageritem.xml" value="0.2125" />
       </map>
     </option>

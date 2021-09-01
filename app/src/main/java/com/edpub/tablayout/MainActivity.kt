@@ -11,15 +11,14 @@ import com.google.android.material.tabs.TabLayoutMediator
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val images  = listOf(
-            R.drawable.ic_baseline_10k_24,
-            R.drawable.ic_baseline_1x_mobiledata_24,
-            R.drawable.ic_baseline_20mp_24,
-            R.drawable.ic_baseline_3k_24,
-            R.drawable.ic_launcher_background,
-            R.drawable.ic_baseline_360_24,
-            R.drawable.ic_launcher_foreground)
-        val adapter = ViewPagerAdapter(images)
+        val chapters = listOf("C1", "C2")
+        val examples = listOf("E1", "E2")
+
+        val adapter1 = RecyclerViewAdapter(chapters)
+        val adapter2 = RecyclerViewAdapter(examples)
+
+        val adapterList  = listOf(adapter1, adapter2)
+        val adapter = ViewPagerAdapter(adapterList)
         val viewPager = findViewById<ViewPager2>(R.id.myViewPager)
         viewPager.adapter = adapter
 
